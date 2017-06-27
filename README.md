@@ -33,10 +33,10 @@ Project specific settings can be added to the `package.json` file under the `cra
 | directory       | `string`  | "components"  | Where, relative to the `./src/` directory, the component should be.                          |
 | fileFormat      | `string`  | "pascalCase"  | One of: camelCase, constantCase, headerCase, paramCase, pascalCase or snakeCase. |
 | componentFormat | `string`  | "pascalCase"  | One of: camelCase, constantCase, headerCase, paramCase, pascalCase or snakeCase. |
-| typeCheck       | `undefined|string` | `undefined` | Can be set explicitly to "flow".                                                 |
+| typeCheck       | `undefined` &#124; `string` | `undefined` | Can be set explicitly to "flow".                                                 |
 | cssExtension    | `string`  | "css"         | File extensions, with or without a dot.                                      |
-| semi    | `true|false`  | `true`         | Should script files be terminated with a semicolon.                                      |
-| test            | `false|string` | "jest"   | Only jest for now. Can be skipped with false.                                  |
+| semi    | `true` &#124; `false`  | `true`         | Should script files be terminated with a semicolon.                                      |
+| test            | `false` &#124; `string` | "jest"   | Only jest for now. Can be skipped with false.                                  |
 
 ## License
 
